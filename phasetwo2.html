@@ -1,0 +1,60 @@
+<!-- HTML Document-->
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>COMP1073 - project phase 1 </title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="phase2two.css" rel="stylesheet"> <!--linking the css-->
+    <script src="phasetwo2.js" async></script> <!--linking the js-->
+    <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCspzsTqzEb9YU7K1TdysanCDulCBwpkk&callback=initMap">
+</script>
+<script src= "thirdpartyapi.js" defer></script>
+</head>
+
+<body>
+  <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+    <source src="Nature Beautiful short video 720p HD.mp4" type="video/mp4">
+</video>
+  <main>
+
+      
+    <h1>My Regular Activities</h1> <!--header-->
+    <div class = "project phase 1">
+    
+    </div>
+    
+    
+     <input type ="text" id="txt" placeholder="type a to do item">
+     <button onclick="addtomyroutine()">Add</button><!--adding new buttons-->
+     <button onclick="deleteLI()">Delete</button>
+    
+    
+     <ul id="newactivity"><!--all my activities in form of list-->
+     
+    </ul>
+     
+     
+
+    
+     <section class="row">
+       <button id="park">Is there any park near me</button>  
+      <p id = "location"></p>
+    <div id="map"></div>   </section>
+      
+         
+     </section>
+    <footer>
+      <p> Project Phase 1 </p>
+    </footer>
+  </main>
+  <script>
+    
+ 
+    
+     
+  
+  </script>
+</body>
+</html>

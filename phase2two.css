@@ -1,0 +1,60 @@
+
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+  box-sizing: border-box; 
+  height: 100%;
+  font-size: 12px; 
+}
+
+body {
+  
+  background-size: cover; 
+  height: 100%; 
+}
+/* Adding Gold Color to wbpage*/
+main {
+  padding: 3em 5em !important; 
+}
+
+section {
+  padding-bottom: 2em;
+}
+
+h1 {
+  font-size: 6em; 
+  color: red;
+}
+
+p,
+.btn {
+  font-size: 3em; 
+}
+
+nav ul {
+  list-style: none; 
+  display:flex;
+  justify-content:flex-end;
+}
+
+nav ul li a{
+  margin: 1em 1em 0 0; 
+}
+
+#map{
+  height: 500px;
+  width:600px;
+}
+
+#videobcg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  overflow: hidden;
+}
